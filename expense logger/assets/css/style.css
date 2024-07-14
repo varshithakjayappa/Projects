@@ -1,0 +1,160 @@
+.h1-heading{
+    font-size: 30px;
+}
+.sidebar{
+   height: 100vh; /* Full viewport height */
+   
+}
+.bg-creamy{
+    background-color: rgba(244, 221, 192, 0.3);
+}
+.w-30{
+    width: 30%;
+}
+.income-card{
+    background-color: rgb(243, 210, 168, 0.8);
+    color: rgb(219, 131, 16);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+   }
+.expense-card{
+    background-color: rgba(156, 208, 245, 0.8);
+    color: rgb(1, 105, 125);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.savings-card{
+    background-color: rgba(201, 152, 239, 0.8);
+    color: rgb(90, 0, 125);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+   }
+.icon-size > .bi-coin{
+    width: 50px;
+    height: 50px;
+}
+.card-shadow{
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+li {
+    margin-bottom: 15px;
+    padding-left: 6px;
+  }
+ li  a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-left: 20px;
+}
+/* .bottom-line::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px; 
+    background-color: #ffff;
+    margin-top: 4px;
+    opacity: 0.5;
+    
+} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgb(2, 99, 23)!important;
+    color: white;
+}
+li a:hover {
+    color: rgb(245, 245, 245)!important; /* Change link color on hover */
+    text-decoration: none; 
+    font-size: 28x;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    display: flex;
+background-color: #6c757d;
+transition: color 0.3s;
+padding-left: 20px;
+align-items: center;
+border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    li a .active:active {
+        color: rgb(245, 245, 245)!important; /* Change link color on hover */
+        text-decoration: none; 
+        font-size: 28x;
+        font-weight: 600;
+        width: 100%;
+        height: 40px;
+        display: flex;
+    background-color: #88accb;
+    transition: color 0.3s;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+        }
+    .table-td-income{
+        background-color: rgb(243, 210, 168, 0.8);
+    color: rgb(219, 131, 16);
+    border: 1px;
+    padding: 3px;
+    }
+       /* Container for the bar graph */
+       .bar-graph {
+        display: flex;
+        align-items: flex-end;
+        /* max-height: 100px; */
+        border-left: 2px solid #333;
+        border-bottom: 2px solid #333;
+        /* padding: 10px; */
+        margin-top: 20px;
+        gap: 40px;
+        padding: 0px 15px;
+      }
+      .bar {
+        width: 30px;
+        margin: 0 10px;
+        background-color: #4CAF50;
+        text-align: center;
+        color: white;
+        font-family: Arial, sans-serif;
+        transition: height 0.3s;
+        border-radius: 3px;
+      }
+      #bar-labels{
+        display: flex;
+        gap: 40px;
+        padding: 0px 15px;
+      }
+      .bar-label {
+        margin-top: 5px;
+        text-align:center;
+        font-family: Arial, sans-serif;
+      }
+     .form-select-primary  .income-card{
+        background-color: rgb(243, 210, 168, 0.8);
+    color: rgb(219, 131, 16);
+    border-color:none ;
+      }
+     .form-select-primary .expense-card{
+        background-color: rgba(156, 208, 245, 0.8);
+        color: rgb(1, 105, 125);
+    border-color:none ;
+      }
+      .income-td{
+        background-color: rgb(243, 210, 168, 0.8);
+    color: rgb(219, 131, 16);
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+    width: 60%;
+    display: block;
+    text-align: center;
+      }
+      .expense-td{
+       background-color: rgba(156, 208, 245, 0.8);
+    color: rgb(1, 105, 125);
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+    width: 60%;
+    display: block;
+    text-align: center;
+      }
